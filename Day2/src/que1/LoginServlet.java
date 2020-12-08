@@ -40,6 +40,7 @@ public class LoginServlet extends HttpServlet {
 			printWriter.print("failed");
 
 		}
+		printWriter.close();
 		
 		
 	}
